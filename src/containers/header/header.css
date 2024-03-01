@@ -1,0 +1,40 @@
+.creatic__header {
+    background: var(--bg-color);
+    padding: 0 10% 0;
+    position: relative;
+    max-width: 100%;
+}
+
+.creatic__header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+
+.creatic__header-container_content .creatic__cta {
+    flex: 1 1 auto;
+    padding: 5rem 0 5rem 0;
+}
+
+.creatic__header-container_image {
+    flex: 1 0 50%;
+    align-self: flex-end;
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .creatic__header-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .creatic__header-container {
+        flex-direction: column;
+    }
+}
+
+

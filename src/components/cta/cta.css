@@ -1,0 +1,72 @@
+.creatic__cta {
+    flex: 1 1 auto;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.creatic__cta p:first-child {
+    color: var(--main-color);
+    font-size: 1.2rem;
+}
+
+.creatic__cta h2 {
+    font-size: 3rem;
+}
+
+.creatic__cta .span {
+    color: var(--main-color);
+}
+
+.color-bar {
+    width: 8rem;
+    height: 0.2rem;
+    border-radius: 1rem;
+    background: var(--main-color);
+}
+
+.creatic__cta-btn {
+    max-width: fit-content;
+    padding: 0.5rem;
+    text-align: center;
+    border: 2px solid var(--main-color);
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.creatic__cta-btn:hover {
+    transform: scale(1.2);
+}
+
+.creatic__cta-btn button{
+    border: none;
+    background: none;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+    .creatic__cta p:first-child {
+        font-size: 0.8rem;
+    }
+
+    .creatic__cta p {
+        font-size: 0.8rem;
+    }
+    
+    .creatic__cta h2 {
+        font-size: 2.6rem;
+    }
+
+    .creatic__cta-btn button{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .creatic__cta h2 {
+        font-size: 1.8rem;
+    }
+    }
