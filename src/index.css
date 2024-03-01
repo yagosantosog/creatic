@@ -2,5 +2,6 @@
 
 :root {
     --main-color: #6D95FC;
-
+    --bg-color: #000;
+    --text-color: #fff;
 }

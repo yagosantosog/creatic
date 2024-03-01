@@ -1,5 +1,6 @@
 import {Brand, Navbar} from './components';
 import {AboutUs, Footer, Header, Projects, Services, Testimonials} from './containers';
+import './App.css'
 
 function App() {
   return (
