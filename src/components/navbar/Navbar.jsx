@@ -7,6 +7,7 @@ import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 
 function Menu() {
   return (
+    <>
     <ul>
       <li>Home</li>
       <li>About Us</li>
@@ -15,6 +16,10 @@ function Menu() {
       <li>Pages</li>
       <li>Contact Us</li>
     </ul>
+    <div className="creatic__navbar-links_btn">
+    <img src={search} alt="magnify" />
+    </div>
+    </>
   )
 }
 
@@ -30,9 +35,6 @@ const Navbar = () => {
       </div>
       <div className="creatic__navbar-links">
         <Menu />
-        <div className="creatic__navbar-links_btn">
-          <img src={search} alt="magnify" />
-        </div>
         </div>
         <div className="creatic__navbar-links_menu">
           {
