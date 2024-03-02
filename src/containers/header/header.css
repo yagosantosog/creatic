@@ -1,6 +1,5 @@
 .creatic__header {
     background: var(--bg-color);
-    padding: 0 10% 0;
     position: relative;
     max-width: 100%;
 }
@@ -8,7 +7,7 @@
 .creatic__header-container{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -19,21 +18,24 @@
 }
 
 .creatic__header-container_image {
-    flex: 1 0 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 55%;
     align-self: flex-end;
 
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .creatic__header-container {
         flex-direction: column;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .creatic__header-container {
-        flex-direction: column;
+    .creatic__header-container_image img {
+        max-width: 80%;
     }
 }
 
