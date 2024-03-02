@@ -1,0 +1,90 @@
+.creatic__services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.creatic__services-container_content {
+    flex: 1;
+}
+
+.creatic__services-container_content  .color-bar {
+    background: var(--text-color);
+    width: 6rem;
+    height: 0.16rem;
+}
+
+.creatic__services-container_cards {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+
+.creatic__services-container_cards-col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.creatic__services-container_cards-col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.creatic__services-container_cards-card1, 
+.creatic__services-container_cards-card3 {
+    display: flex;
+    align-items: center;
+    max-width: 72%;
+}
+
+.creatic__services-container_cards-card2,
+.creatic__services-container_cards-card4 {
+    display: flex;
+    align-items: center;
+    max-width: 72%;
+}
+
+.creatic__services-container_cards-card1 .creatic__card {
+    background-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 68%, rgba(35, 102, 247, 0.1) 90%);
+}
+
+.creatic__services-container_cards-card2 .creatic__card {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 68%, rgba(35, 102, 247, 0.1) 90%);
+}
+
+.creatic__services-container_cards-card3 .creatic__card {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 68%, rgba(35, 102, 247, 0.1) 90%);
+}
+
+.creatic__services-container_cards-card4 .creatic__card {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 68%, rgba(35, 102, 247, 0.1) 90%);
+}
+
+
+@media screen and (max-width: 1023px) {
+    .creatic__services-container {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .creatic__services-container_cards {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .creatic__services-container_cards-col1,
+    .creatic__services-container_cards-col2 {
+        gap: 5rem;
+    }
+}
