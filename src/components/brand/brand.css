@@ -1,0 +1,57 @@
+.creatic__brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: fit-content;
+}
+
+.creatic__brand img {
+    max-width: 50%;
+}
+
+.brand_title{
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.brand_text {
+    color: var(--main-color);
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1023px) {
+    .creatic__brand img {
+        max-width:40%;
+    }
+    
+    .brand_title{
+        color: var(--text-color);
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+    
+    .brand_text {
+        color: var(--main-color);
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .creatic__brand img {
+        max-width: 30%;
+    }
+    
+    .brand_title{
+        color: var(--text-color);
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+    
+    .brand_text {
+        color: var(--main-color);
+        font-size: 0.5rem;
+    }
+    }

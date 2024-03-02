@@ -4,3 +4,4 @@ export {default as Header} from './header/Header';
 export {default as Projects} from './projects/Projects';
 export {default as Services} from './services/Services';
 export {default as Testimonials} from './testimonials/Testimonials';
+export {default as Brands} from './brands/Brands';

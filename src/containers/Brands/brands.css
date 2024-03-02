@@ -1,0 +1,20 @@
+.creatic__brands {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 1%, rgba(35, 102, 247, 0.18) 90%);
+}
+
+.creatic__brands-container {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 5rem 0 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .creatic__brands-container {
+        gap: 2rem;
+    }
+}

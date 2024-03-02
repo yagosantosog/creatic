@@ -1,5 +1,5 @@
-import {Brand, Navbar} from './components';
-import {AboutUs, Footer, Header, Projects, Services, Testimonials} from './containers';
+import {Navbar} from './components';
+import {AboutUs, Footer, Header, Projects, Services, Testimonials, Brands} from './containers';
 import './App.css'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <Header />
       <AboutUs />
       <Services />
-      <Brand />
+      <Brands />
       <Projects />
       <Testimonials />
       <Footer /> 
