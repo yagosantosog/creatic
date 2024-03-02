@@ -9,7 +9,7 @@ const Header = () => {
       <div className='original_gradient'></div>
       <div className="creatic__header-container">
         <div className="creatic__header-container_content">
-        <Cta theme='WELCOME TO CREATIC' title={<span>WE ARE <span className='span'>CREATIVE</span> DESIGN AGENCY</span>} text='Lorem ipsumNeque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit Neque porro elit Neque porro quis ipsum' btn_text='GET IN TOUCH'/>
+        <Cta theme={<p>WELCOME TO CREATIC</p>} title={<h1>WE ARE <span className='main-word'>CREATIVE</span> DESIGN AGENCY</h1>} text={<p>Lorem ipsumNeque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit Neque porro elit Neque porro quis ipsum</p>} btn_text='GET IN TOUCH'/>
         </div>
         <div className="creatic__header-container_image">
           <img src={jewelWoman} alt="A beautiful woman with a big jewel" />

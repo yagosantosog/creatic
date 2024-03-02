@@ -11,11 +11,15 @@
     font-size: 1.2rem;
 }
 
-.creatic__cta h2 {
+.creatic__cta h1 {
     font-size: 3rem;
 }
 
-.creatic__cta .span {
+.creatic__cta h2 {
+    font-size: 2.4rem;
+}
+
+.main-word {
     color: var(--main-color);
 }
 
@@ -56,8 +60,12 @@
         font-size: 0.8rem;
     }
     
-    .creatic__cta h2 {
+    .creatic__cta h1 {
         font-size: 2.6rem;
+    }
+
+    .creatic__cta h2 {
+        font-size: 1.5rem;
     }
 
     .creatic__cta-btn button{
@@ -66,7 +74,11 @@
 }
 
 @media screen and (max-width: 767px) {
-    .creatic__cta h2 {
+    .creatic__cta h1 {
         font-size: 1.8rem;
+    }
+
+    .creatic__cta h2 {
+        font-size: 1.3rem;
     }
     }

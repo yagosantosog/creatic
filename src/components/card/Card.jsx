@@ -1,10 +1,14 @@
 import React from 'react';
 import './card.css';
 
-const Card = () => {
+const Card = ({image, alt, title, text}) => {
   return (
-    <div>
-      
+    <div className='creatic__card'>
+      <div className="creatic__card-image">
+        <img src={image} alt={alt} />
+      </div>
+      <h3>{title}</h3>
+      <p>{text}</p>
     </div>
   )
 }
