@@ -21,8 +21,11 @@ const Projects = () => {
     <div className='creatic__projects'>
       <div className="creatic__projects-container">
         <div className="creatic__projects-container_title">
-          <h2>ENJOY OUR LATEST PROJECTS </h2>
-          <p>OUR WORK</p>
+          <h2>ENJOY OUR <span>LATEST</span> PROJECTS </h2>
+          <div className='bars-support'>
+            <p>OUR WORK</p>
+            </div>
+          
         </div>
         <div className="creatic__project-container_slider">
           <Slider images={images}/>
