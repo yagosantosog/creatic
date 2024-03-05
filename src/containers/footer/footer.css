@@ -1,0 +1,31 @@
+.creatic__footer-ctaContainer {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.creatic__footer-ctaContainer_cta {
+    flex: 1;
+    border: 1px solid red;
+}
+
+.creatic__footer-ctaContainer .creatic__cta .color-bar {
+    background: var(--text-color);
+    width: 6rem;
+    height: 0.16rem;
+}
+
+.creatic__footer-ctaContainer_cta .creatic__cta .creatic__cta-btn {
+    display: none;
+}
+
+.creatic__footer-ctaContainer_inputCard {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+    flex: 1;
+    border: 1px solid red;
+}

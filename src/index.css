@@ -15,3 +15,10 @@
     --swiper-pagination-bullet-vertical-gap: 0.8rem;
 
 }
+
+
+@media screen and (max-width: 767px) {
+    .swiper-pagination-bullet {
+        display: none !important;
+    }
+}

@@ -6,7 +6,7 @@ import './cta.css'
 const Cta = ({theme, title, subtitle, text, btn_text }) => {
   return (
     <div className='creatic__cta'>
-      <>{theme}</>
+      <div className='theme'>{theme}</div>
       <>{title}</>
       <div className="color-bar"></div>
       <>{subtitle}</>

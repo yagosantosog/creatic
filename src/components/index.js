@@ -5,3 +5,4 @@ export {default as Slider} from './slider/Slider';
 export {default as InputCard} from './inputCard/InputCard';
 export {default as Navbar} from './navbar/Navbar';
 export {default as TestimonialCard} from './testimonialCard/TestimonialCard';
+export {default as ContactItem} from './contactItem/ContactItem';

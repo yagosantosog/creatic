@@ -6,7 +6,8 @@ import pexelWoman from '../../assets/pexels-motional-studio-1081685.png';
 import womanWombo from '../../assets/womanWombo.jpg';
 import abstracttwo from '../../assets/abstract2.jpg';
 import surreal from '../../assets/surreal.jpg';
-import { Slider } from '../../components';
+import check from '../../assets/check.svg';
+import { Cta, Slider } from '../../components';
 
 const Projects = () => {
   const images = [
@@ -29,6 +30,19 @@ const Projects = () => {
         </div>
         <div className="creatic__project-container_slider">
           <Slider images={images}/>
+        </div>
+        <div className="creatic__projects-container_whyUs">
+          <div className="creatic__projects-container_whyUs-cta">
+          <Cta theme={<p>WHY US?</p>} title={<h2>25 YEARS OF <span className='main-word'>EXPERIENCE</span> AS A CRIATIVE AGENCY</h2>} btn_text='READ MORE'/>
+          </div>
+          <div className="creatic__projects-container_whyUs-list">
+            <p>Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet,  Neque porro elit NeDque porro  Lorem ipsum</p>
+            <ul>
+              <li><img src={check}/>Happy Customer</li>
+              <li><img src={check}/>Experienced Team</li>
+              <li><img src={check}/>Modern Technology</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
