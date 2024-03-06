@@ -1,10 +1,16 @@
 import React from 'react';
-import './ContactItem.css';
+import './contactItem.css';
 
-const ContactItem = () => {
+const ContactItem = ({image, alt, title, subtitle}) => {
   return (
-    <div>
-      
+    <div className='creatic__contactItem'>
+      <div className="creatic__contacItem-image">
+        <img src={image} alt={alt} />
+      </div>
+      <div className="creatic_contactItem_content">
+        <p id='title'>{title}</p>
+        <p id='subtitle'>{subtitle}</p>
+      </div>
     </div>
   )
 }
