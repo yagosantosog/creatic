@@ -7,7 +7,7 @@ import client from '../../assets/client.png';
 
 const testimonials = () => {
   return (
-    <div className='creatic__testimonials'>
+    <div className='creatic__testimonials' id='pages'>
       <div className="creatic__testimonials-container">
         <div className="creatic__testimonials-container_leftSide">
           <img src={robotWoman} alt="A robot woman." />

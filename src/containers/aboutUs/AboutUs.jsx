@@ -5,7 +5,7 @@ import { Cta } from '../../components';
 
 const AboutUs = () => {
   return (
-    <div className='creatic__aboutUs'>
+    <div className='creatic__aboutUs' id='about'>
       <div className="original_gradient"></div>
       <div className="creatic__aboutUs-container">
         <div className="creatic__aboutUs-container_image">

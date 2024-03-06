@@ -5,7 +5,7 @@ import jewelWoman from '../../assets/beautiful-woman-with-big-jewel.png'
 
 const Header = () => {
   return (
-    <div className='creatic__header'>
+    <div className='creatic__header' id='home'>
       <div className='original_gradient'></div>
       <div className="creatic__header-container">
         <div className="creatic__header-container_content">

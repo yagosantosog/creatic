@@ -3,18 +3,19 @@ import './navbar.css';
 import search from '../../assets/magnify.svg';
 import logo from '../../assets/logo.svg';
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
+import { Link } from 'react-router-dom';
 
 
 function Menu() {
   return (
     <>
     <ul>
-      <li>Home</li>
-      <li>About Us</li>
-      <li>Services</li>
-      <li>Portifolio</li>
-      <li>Pages</li>
-      <li>Contact Us</li>
+      <li><a href='#home'>Home</a></li>
+      <li><a href='#about'>About Us</a></li>
+      <li><a href='#services'>Services</a></li>
+      <li><a href='#portifolio'>Portifolio</a></li>
+      <li><a href='#pages'>Pages</a></li>
+      <li><a href='#contact'>Contact Us</a></li>
     </ul>
     <div className="creatic__navbar-links_btn">
     <img src={search} alt="magnify" />

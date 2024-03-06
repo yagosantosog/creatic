@@ -19,7 +19,7 @@ const Projects = () => {
             { src: abstractImage, alt: 'An abstract blue art.'}
           ]
   return (
-    <div className='creatic__projects'>
+    <div className='creatic__projects' id='portifolio'>
       <div className="creatic__projects-container">
         <div className="creatic__projects-container_title">
           <h2>ENJOY OUR <span>LATEST</span> PROJECTS </h2>
@@ -38,9 +38,9 @@ const Projects = () => {
           <div className="creatic__projects-container_whyUs-list">
             <p>Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet,  Neque porro elit NeDque porro  Lorem ipsum</p>
             <ul>
-              <li><img src={check}/>Happy Customer</li>
-              <li><img src={check}/>Experienced Team</li>
-              <li><img src={check}/>Modern Technology</li>
+              <li><img src={check} alt=''/>Happy Customer</li>
+              <li><img src={check} alt=''/>Experienced Team</li>
+              <li><img src={check} alt=''/>Modern Technology</li>
             </ul>
           </div>
         </div>
