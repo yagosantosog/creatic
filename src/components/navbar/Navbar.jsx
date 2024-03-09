@@ -3,7 +3,6 @@ import './navbar.css';
 import search from '../../assets/magnify.svg';
 import logo from '../../assets/logo.svg';
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
-import { Link } from 'react-router-dom';
 
 
 function Menu() {
