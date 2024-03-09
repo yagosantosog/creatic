@@ -19,7 +19,7 @@ const Projects = () => {
             { src: abstractImage, alt: 'An abstract blue art.'}
           ]
   return (
-    <div className='creatic__projects' id='portifolio'>
+    <section className='creatic__projects' id='portifolio'>
       <div className="creatic__projects-container">
         <div className="creatic__projects-container_title">
           <h2>ENJOY OUR <span>LATEST</span> PROJECTS </h2>
@@ -45,7 +45,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

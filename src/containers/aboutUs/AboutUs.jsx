@@ -5,7 +5,7 @@ import { Cta } from '../../components';
 
 const AboutUs = () => {
   return (
-    <div className='creatic__aboutUs' id='about'>
+    <section className='creatic__aboutUs' id='about'>
       <div className="original_gradient"></div>
       <div className="creatic__aboutUs-container">
         <div className="creatic__aboutUs-container_image">
@@ -16,7 +16,7 @@ const AboutUs = () => {
           <p>Neque porro quisquam est qui do lorem ipsum quia dolor sit amet,  Lorem ipsum Neque quis ipsum</p></>} btn_text='READ MORE'/>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

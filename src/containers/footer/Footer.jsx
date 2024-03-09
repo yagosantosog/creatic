@@ -16,7 +16,7 @@ const Footer = () => {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <div className='creatic__footer' id='contact'>
+    <footer className='creatic__footer' id='contact'>
       <div className="creatic__footer-ctaContainer">
         <div className="creatic__footer-ctaContainer_cta">
           <Cta title={<h2>GET IN <span className='main-word'>TOUCH</span></h2>} text={<p>Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet,  Neque porro elit NeDque porro</p>}/>
@@ -62,7 +62,7 @@ const Footer = () => {
         <div className="creatic__footer-copyright">
           <p>Copyright © 2003-{year} Creatic Agency All rights reserved.</p>
         </div>
-    </div>
+    </footer>
   )
 }
 
