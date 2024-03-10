@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './navbar.css';
 import search from '../../assets/magnify.svg';
-import logo from '../../assets/logo.svg';
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
+import Logo from '../logo/Logo';
 
 
 function Menu() {
@@ -29,9 +29,7 @@ const Navbar = () => {
     <nav className='creatic__navbar'>
       <div className="creatic__navbar-container">
       <div className="creatic__navbar-logo">
-        <div className="creatic__navbar-logo_image">
-          <img src={logo} alt="logo" />
-        </div>
+        <Logo />
       </div>
       <div className="creatic__navbar-links">
         <Menu />

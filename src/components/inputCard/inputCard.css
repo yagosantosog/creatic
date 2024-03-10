@@ -26,7 +26,7 @@
 .creatic__inputCard-container button {
     background: var(--main-color);
     max-width: fit-content;
-    padding: 0.5rem;
+    padding: 0.5em 1em;
     text-align: center;
     border: none;
     border-radius: 0.2rem;

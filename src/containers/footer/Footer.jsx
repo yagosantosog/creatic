@@ -1,10 +1,9 @@
 import React from 'react';
 import './footer.css';
-import { ContactItem, Cta, InputCard } from '../../components';
+import { ContactItem, Cta, InputCard, Logo } from '../../components';
 import local from '../../assets/local.svg';
 import phone from '../../assets/phone.svg';
 import email from '../../assets/gmail.svg';
-import logo from '../../assets/logo.svg';
 import facebook from '../../assets/facebook.svg';
 import instagram from '../../assets/instagram.svg';
 import whatsapp from '../../assets/whatsapp.svg';
@@ -34,7 +33,7 @@ const Footer = () => {
       </div>
       <div className="creatic__footer-infoContainer">
         <div className="creatic__footer-infoContainer_logo">
-          <img src={logo} alt="logo" />
+          <Logo />
           <div className="color-bar"></div>
         </div>
         <div className="creatic__footer-infoContainer_links">

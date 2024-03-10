@@ -33,7 +33,7 @@
 
 .creatic__cta-btn {
     max-width: fit-content;
-    padding: 0.5rem;
+    padding: 0.5em 1em;
     text-align: center;
     border: 2px solid var(--main-color);
     border-radius: 0.2rem;
