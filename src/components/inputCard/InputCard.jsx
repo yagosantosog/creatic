@@ -6,11 +6,11 @@ const InputCard = () => {
     <div className='creatic__inputCard'>
       <div className="creatic__inputCard-container">
         <label htmlFor="name-input">YOUR NAME</label>
-        <input type="text" name="name-input" id="name-input" />
+        <input type="text" name="name-input" />
         <label htmlFor="email-input">YOUR EMAIL</label>
-        <input type="email" name="email-input" id="email-input" />
+        <input type="email" name="email-input" />
         <label htmlFor="message">YOUR MESSAGE</label>
-        <textarea name="message" id="message-input" cols="30" rows="7"></textarea>
+        <textarea name="message" cols="30" rows="7"></textarea>
         <button type="submit">SEND MESSAGE</button>
       </div>
       
