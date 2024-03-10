@@ -1,6 +1,11 @@
 .creatic__navbar {
     background: var(--bg-color);
     padding: 0.8rem 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .creatic__navbar-container {
@@ -79,9 +84,8 @@
     padding: 1rem 5rem;
     border-radius: 1rem;
     position: absolute;
-    z-index: 100;
-    top: 14%;
-    right: 5%;
+    top: 120%;
+    right: 8%;
     background: var(--bg-color);
     min-height: 20rem;
     max-width: 16rem;

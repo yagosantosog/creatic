@@ -2,6 +2,7 @@
     background: var(--bg-color);
     position: relative;
     max-width: 100%;
+    padding-top: 6%;
 }
 
 .creatic__header-container{

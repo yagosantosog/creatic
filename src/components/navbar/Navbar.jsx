@@ -35,20 +35,20 @@ const Navbar = () => {
       </div>
       <div className="creatic__navbar-links">
         <Menu />
-        </div>
-        <div className="creatic__navbar-links_menu">
-          {
-            toggleMenu 
-            ?
-            <RiCloseLine size={27} color='#6D95FC' onClick={() => setToggleMenu(false)}/>
-            :
-            <RiMenu3Line size={27} color='#6D95FC' onClick={() => setToggleMenu(true)}/>
-          }
-          { toggleMenu && (
-             <div className="creatic__navbar-container_menu scale-up-tr">
-                <Menu />
-             </div>
-          )}
+      </div>
+      <div className="creatic__navbar-links_menu">
+        {
+          toggleMenu 
+          ?
+          <RiCloseLine size={27} color='#6D95FC' onClick={() => setToggleMenu(false)}/>
+          :
+          <RiMenu3Line size={27} color='#6D95FC' onClick={() => setToggleMenu(true)}/>
+        }
+        { toggleMenu && (
+            <div className="creatic__navbar-container_menu scale-up-tr">
+              <Menu />
+            </div>
+        )}
       </div>
       </div>
     </nav>
