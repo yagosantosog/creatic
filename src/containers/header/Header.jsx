@@ -5,7 +5,7 @@ import jewelWoman from '../../assets/beautiful-woman-with-big-jewel.png'
 
 const Header = () => {
   return (
-    <header className='creatic__header' id='home'>
+    <section className='creatic__header' id='home'>
       <div className='original_gradient'></div>
       <div className="creatic__header-container">
         <div className="creatic__header-container_content">
@@ -15,7 +15,7 @@ const Header = () => {
           <img src={jewelWoman} alt="A beautiful woman with a big jewel" />
         </div>
         </div>
-    </header>
+    </section>
   )
 }
 

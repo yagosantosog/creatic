@@ -4,16 +4,20 @@ import './App.css'
 
 function App() {
   return (
-    <main className="App">
-      <Navbar />
+    <div className="App">
+      <header>
+        <Navbar />
+      </header>
+      <main>
       <Header />
       <AboutUs />
       <Services />
       <Brands />
       <Projects />
       <Testimonials />
+      </main>
       <Footer /> 
-    </main>
+    </div>
   );
 }
 
