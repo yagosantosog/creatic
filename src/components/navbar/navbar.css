@@ -51,12 +51,12 @@
     font-size: 1rem;
     display: flex;
     align-items: center;
-    gap: 3rem;
     list-style: none;
 }
 
 .creatic__navbar-links li {
     cursor: pointer;
+    margin-left: 2.6em;
     transition: .4s;
 }
 
@@ -136,10 +136,6 @@
     .creatic__navbar-links_btn img{
         display: block;
         max-width: 60%;
-    }
-
-    .creatic__navbar-logo_image img {
-        max-width: 65%;
     }
 
     .creatic__navbar-links ul li {
