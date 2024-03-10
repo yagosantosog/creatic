@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/creatic-agency/static/css/main.e109b1f0.css",
+    "main.css": "/creatic-agency/static/css/main.f6737b5f.css",
     "main.js": "/creatic-agency/static/js/main.23d92a6e.js",
     "static/media/beautiful-woman-with-big-jewel.png": "/creatic-agency/static/media/beautiful-woman-with-big-jewel.24b26bdc9f1606010aed.png",
     "static/media/surreal.jpg": "/creatic-agency/static/media/surreal.021e65038dcbe7f3eed2.jpg",
@@ -33,11 +33,11 @@
     "index.html": "/creatic-agency/index.html",
     "static/media/facebook.svg": "/creatic-agency/static/media/facebook.4b7b10be4d828f55d62ee9ef1aa80e4a.svg",
     "static/media/gmail.svg": "/creatic-agency/static/media/gmail.4ddb25ebde0f50c60f07105692814d62.svg",
-    "main.e109b1f0.css.map": "/creatic-agency/static/css/main.e109b1f0.css.map",
+    "main.f6737b5f.css.map": "/creatic-agency/static/css/main.f6737b5f.css.map",
     "main.23d92a6e.js.map": "/creatic-agency/static/js/main.23d92a6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e109b1f0.css",
+    "static/css/main.f6737b5f.css",
     "static/js/main.23d92a6e.js"
   ]
 }
