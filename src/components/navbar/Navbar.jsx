@@ -7,7 +7,7 @@ import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 
 function Menu() {
   return (
-    <nav>
+    <>
     <ul>
       <li><a href='#home'>Home</a></li>
       <li><a href='#about'>About Us</a></li>
@@ -19,14 +19,14 @@ function Menu() {
     <div className="creatic__navbar-links_btn">
     <img src={search} alt="magnify" />
     </div>
-    </nav>
+    </>
   )
 }
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className='creatic__navbar'>
+    <nav className='creatic__navbar'>
       <div className="creatic__navbar-container">
       <div className="creatic__navbar-logo">
         <div className="creatic__navbar-logo_image">
@@ -51,7 +51,7 @@ const Navbar = () => {
           )}
       </div>
       </div>
-    </div>
+    </nav>
   )
 }
 
