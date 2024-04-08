@@ -4,21 +4,10 @@
     --main-color: #6D95FC;
     --bg-color: #000;
     --text-color: #fff;
-    --swiper-pagination-color: var(--main-color);
-    --swiper-pagination-bullet-size: 0.5rem;
-    --swiper-pagination-bullet-width: 0.5rem;
-    --swiper-pagination-bullet-height: 0.5rem;
-    --swiper-pagination-bullet-inactive-color: #fff;
-    --swiper-pagination-bullet-inactive-opacity: 0.5;
-    --swiper-pagination-bullet-opacity: 1;
-    --swiper-pagination-bullet-horizontal-gap: 0.5rem;
-    --swiper-pagination-bullet-vertical-gap: 0.8rem;
-
 }
 
-
-@media screen and (max-width: 767px) {
-    .swiper-pagination-bullet {
-        display: none !important;
-    }
+.wrapper {
+    width: 80%;
+    max-width: 90rem;
+    margin-inline: auto;
 }

@@ -10,7 +10,7 @@ const Brands = () => {
   return (
     <section className='creatic__brands'>
       
-        <div className="creatic__brands-container">
+        <div className="wrapper creatic__brands-container">
             <Brand src={group} alt='group' title='50+' text='Team members'/>
             <Brand src={settings} alt='group' title='200+' text='Project done'/>
             <Brand src={groupStars} alt='group' title='500+' text='Happy customers'/>

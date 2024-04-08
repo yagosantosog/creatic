@@ -1,15 +1,14 @@
-import {Navbar} from './components';
-import {AboutUs, Footer, Header, Projects, Services, Testimonials, Brands} from './containers';
+// import {Navbar} from './components';
+import {AboutUs, Footer, Hero, Projects, Services, Testimonials, Brands, Header} from './containers';
 import './App.css'
+import { ScrollRestoration } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <Navbar />
-      </header>
-      <main>
       <Header />
+      <main>
+      <Hero />
       <AboutUs />
       <Services />
       <Brands />
@@ -17,6 +16,7 @@ function App() {
       <Testimonials />
       </main>
       <Footer /> 
+      <ScrollRestoration />
     </div>
   );
 }

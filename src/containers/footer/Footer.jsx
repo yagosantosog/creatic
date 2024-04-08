@@ -16,7 +16,7 @@ const Footer = () => {
   let year = date.getFullYear();
   return (
     <footer className='creatic__footer' id='contact'>
-      <div className="creatic__footer-ctaContainer">
+      <div className="wrapper creatic__footer-ctaContainer">
         <div className="creatic__footer-ctaContainer_cta">
           <Cta title={<h2>GET IN <span className='main-word'>TOUCH</span></h2>} text={<p>Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet,  Neque porro elit NeDque porro</p>}/>
           <div className="creatic__footer-ctaContainer_cta-contactItens">
@@ -38,12 +38,12 @@ const Footer = () => {
         </div>
         <div className="creatic__footer-infoContainer_links">
           <ul>
-              <li>Categories</li>
-              <li>About</li>
-              <li>Services</li>
-              <li>Portfolio</li>
-              <li>Pages</li>
-              <li>Support</li>
+            <li><a href='#home'>Home</a></li>
+            <li><a href='#about'>About Us</a></li>
+            <li><a href='#services'>Services</a></li>
+            <li><a href='#portifolio'>Portifolio</a></li>
+            <li><a href='#pages'>Testimonials</a></li>
+            <li><a href='#contact'>Contact Us</a></li>
           </ul>
         </div>
         <div className="creatic__footer-infoContainer_text">
@@ -58,7 +58,7 @@ const Footer = () => {
             <img src={twitter} alt="twitter icon." />
         </div>
       </div>
-        <div className="creatic__footer-copyright">
+        <div className="wrapper creatic__footer-copyright">
           <p>Copyright © 2003-{year} Creatic Agency All rights reserved.</p>
         </div>
     </footer>

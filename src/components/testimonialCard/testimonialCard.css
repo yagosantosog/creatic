@@ -1,0 +1,42 @@
+.creatic__testimonialCard {
+    background: linear-gradient(180deg, rgba(109,149,252,0.1) 25%, rgba(2,0,36,0) 100%);
+    border-radius: 2rem;
+    padding: 2em;
+    text-align: left;
+    max-width: 35rem;
+    color: var(--text-color);
+}
+
+.creatic__testimonialCard p {
+    color: var(--text-color) !important;
+    font-size: .8rem;
+
+}
+
+.creatic__testimonialCard-profile {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.creatic__testimonialCard-profile img {
+    border-radius: 50%;
+}
+
+.creatic_testimonialCard-profile_text span{
+    text-align: left;
+    display: block;
+}
+
+.creatic_testimonialCard-profile_text span:first-child {
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.email {
+    color: var(--main-color);
+    font-style: italic;
+    font-size: .8rem;
+}

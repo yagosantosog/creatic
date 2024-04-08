@@ -1,0 +1,16 @@
+.creatic__goBackButton {
+    border: none;
+    background: none;
+    color: var(--text-color);
+    cursor: pointer;
+    padding: 0.5em 1em;
+    text-align: center;
+    border: 2px solid var(--main-color);
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.creatic__goBackButton:hover {
+    transform: scale(1.2);
+}

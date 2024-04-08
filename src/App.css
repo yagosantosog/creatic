@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    scroll-margin-top: 5rem;
 }
 
 body {
@@ -18,10 +19,6 @@ a {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
-}
-
-.section_padding {
-    padding: 10rem 0;
 }
 
 .original_gradient {

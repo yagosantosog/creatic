@@ -2,8 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80%;
-    margin: 0 auto;
 }
 
 .creatic__services-container_content {

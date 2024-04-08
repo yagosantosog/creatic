@@ -1,4 +1,4 @@
-.creatic__inputCard-container {
+.creatic__inputCard-container form{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +8,7 @@
     border-radius: 1.5rem;
 }
 
-.creatic__inputCard-container input,
+.creatic__inputCard-container input:not(.creatic__inputCard-container input:last-child),
 .creatic__inputCard-container textarea {
     background: transparent;
     border: 1px solid var(--text-color);
@@ -23,8 +23,9 @@
     font-size: 1rem;
 }
 
-.creatic__inputCard-container button {
+.creatic__inputCard-container input:last-child {
     background: var(--main-color);
+    font-weight: bold;
     max-width: fit-content;
     padding: 0.5em 1em;
     text-align: center;

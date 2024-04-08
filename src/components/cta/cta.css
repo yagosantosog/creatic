@@ -33,16 +33,6 @@
 
 .creatic__cta-btn {
     max-width: fit-content;
-    padding: 0.5em 1em;
-    text-align: center;
-    border: 2px solid var(--main-color);
-    border-radius: 0.2rem;
-    cursor: pointer;
-    transition: .4s;
-}
-
-.creatic__cta-btn:hover {
-    transform: scale(1.2);
 }
 
 .creatic__cta-btn button{
@@ -50,6 +40,16 @@
     background: none;
     color: var(--text-color);
     cursor: pointer;
+    padding: 1em 1.5em;
+    text-align: center;
+    border: 2px solid var(--main-color);
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.creatic__cta-btn button:hover {
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 1400px) {

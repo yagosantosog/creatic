@@ -1,11 +1,11 @@
 import React from 'react';
 import './projects.css';
-import abstractImage from '../../assets/abstractImage.png';
-import aiImage from '../../assets/gradientAi.png';
-import pexelWoman from '../../assets/pexels-motional-studio-1081685.png';
-import womanWombo from '../../assets/womanWombo.jpg';
-import abstracttwo from '../../assets/abstract2.jpg';
-import surreal from '../../assets/surreal.jpg';
+import abstractImage from '../../assets/abstractImage.webp';
+import aiImage from '../../assets/gradientAi.webp';
+import pexelWoman from '../../assets/pexels-motional-studio-1081685.webp';
+import womanWombo from '../../assets/womanWombo.webp';
+import abstracttwo from '../../assets/abstract2.webp';
+import surreal from '../../assets/surreal.webp';
 import check from '../../assets/check.svg';
 import { Cta, Slider } from '../../components';
 
@@ -20,7 +20,7 @@ const Projects = () => {
           ]
   return (
     <section className='creatic__projects' id='portifolio'>
-      <div className="creatic__projects-container">
+      <div className="wrapper creatic__projects-container">
         <div className="creatic__projects-container_title">
           <h2>ENJOY OUR <span>LATEST</span> PROJECTS </h2>
           <div className='bars-support'>
@@ -29,11 +29,17 @@ const Projects = () => {
           
         </div>
         <div className="creatic__project-container_slider">
+          <div className="swiper-button-prev-custom">
+            <i className='bx bxs-chevron-left'></i>
+          </div>
+          <div className="swiper-button-next-custom">
+            <i className='bx bxs-chevron-right'></i>
+          </div>
           <Slider images={images}/>
         </div>
         <div className="creatic__projects-container_whyUs">
           <div className="creatic__projects-container_whyUs-cta">
-          <Cta theme={<p>WHY US?</p>} title={<h2>25 YEARS OF <span className='main-word'>EXPERIENCE</span> AS A CRIATIVE AGENCY</h2>} btn_text='READ MORE'/>
+          <Cta theme={<p>WHY US?</p>} title={<h2>25 YEARS OF <span className='main-word'>EXPERIENCE</span> AS A CRIATIVE AGENCY</h2>} btn_text='READ MORE' btn_to='/whyUs'/>
           </div>
           <div className="creatic__projects-container_whyUs-list">
             <p>Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet,  Neque porro elit NeDque porro  Lorem ipsum</p>
