@@ -34,12 +34,12 @@ const InputCard = () => {
     <div className='creatic__inputCard'>
       <div className="creatic__inputCard-container">
       <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input className='inputs' type="text" name="user_name" required/>
-      <label>Email</label>
-      <input className='inputs' type="email" name="user_email" required/>
-      <label>Message</label>
-      <textarea name="message" required/>
+      <label htmlFor='user_name'>Name</label>
+      <input id='user_name' className='inputs' type="text" name="user_name" required/>
+      <label htmlFor='user_email'>Email</label>
+      <input id='user_email' className='inputs' type="email" name="user_email" required/>
+      <label htmlFor='message'>Message</label>
+      <textarea id='message' name="message" required/>
       <input type="submit" value="Send Message" />
     </form>
       </div>
