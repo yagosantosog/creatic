@@ -7,14 +7,16 @@ import emailjs from '@emailjs/browser';
 
 const InputCard = () => {
   const form = useRef()
-  let inputs = document.querySelectorAll('.inputs')
-  let textarea = document.querySelector('textarea')
-  const clearInputs = () => {
-    inputs.forEach(input => input.value = '')
-    textarea.value = ''
-  }
+  
+ 
   const sendEmail = (e) => {
     e.preventDefault();
+    let inputs = document.querySelectorAll('.inputs')
+    let textarea = document.querySelector('textarea')
+    const clearInputs = () => {
+    inputs.forEach(input => input.value = '')
+    textarea.value = ''
+    }
 
     emailjs
       .sendForm('service_h5148ty', 'template_avkiy2m', form.current, {
