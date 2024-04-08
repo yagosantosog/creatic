@@ -6,7 +6,7 @@ import Logo from '../../components/logo/Logo';
 
 function Menu() {
   return (
-    <>
+    <nav>
     <ul>
       <li><a href='#home'>Home</a></li>
       <li><a href='#about'>About Us</a></li>
@@ -15,7 +15,7 @@ function Menu() {
       <li><a href='#pages'>Testimonials</a></li>
       <li><a href='#contact'>Contact Us</a></li>
     </ul>
-    </>
+    </nav>
   )
 }
 
@@ -30,7 +30,7 @@ const Header = () => {
       <div className="creatic__navbar-links">
         <Menu />
       </div>
-      <nav className="creatic__navbar-links_menu">
+      <div className="creatic__navbar-links_menu">
         {
           toggleMenu 
           ?
@@ -43,7 +43,7 @@ const Header = () => {
               <Menu />
             </div>
         )}
-      </nav>
+      </div>
       </div>
     </header>
   )
