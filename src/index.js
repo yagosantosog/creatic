@@ -11,7 +11,7 @@ import TestimonialAll from './pages/testimonialAll/TestimonialsAll';
 
 const router = createBrowserRouter([
   {
-    path: '/creatic-agency',
+    path: '/',
     element: <App />,
     errorElement: <PageNotFound />
   },
