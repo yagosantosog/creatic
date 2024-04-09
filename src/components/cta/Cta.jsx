@@ -6,14 +6,6 @@ import { Link } from 'react-router-dom';
 
 const Cta = ({theme, title, subtitle, text, btn_text, btn_target, btn_to }) => {
   const link = btn_to
-  const scrollToElement = () => {
-  var element = document.getElementById(btn_target);
-  if (element) {
-    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  } else {
-    window.scrollTo(0, 0);
-  }
-}
   return (
     <div className='creatic__cta'>
       <div className='theme'>{theme}</div>
@@ -21,8 +13,8 @@ const Cta = ({theme, title, subtitle, text, btn_text, btn_target, btn_to }) => {
       <div className="color-bar"></div>
       <>{subtitle}</>
       <>{text}</>
-      <div onClick={scrollToElement} className="creatic__cta-btn">
-        {link ? <Link to={link}><button type='button'>{btn_text}</button></Link> : <button type='button'>{btn_text}</button>}
+      <div className="creatic__cta-btn">
+        {link ? <Link onClick={() => document.documentElement.scrollTo({top: 0, left: 0, behavior: "instant",})} to={link}><button type='button'>{btn_text}</button></Link>: <Link to={'#' + btn_target}><button type='button'>{btn_text}</button></Link>}
       </div>
     </div>
   )

@@ -10,6 +10,7 @@ import whatsapp from '../../assets/whatsapp.svg';
 import linkedin from '../../assets/linkedin.svg';
 import pinterest from '../../assets/pinterest.svg';
 import twitter from '../../assets/twitter.svg';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   let date = new Date();
@@ -36,16 +37,16 @@ const Footer = () => {
           <Logo />
           <div className="color-bar"></div>
         </div>
-        <div className="creatic__footer-infoContainer_links">
+        <nav className="creatic__footer-infoContainer_links">
           <ul>
-            <li><a href='#home'>Home</a></li>
-            <li><a href='#about'>About Us</a></li>
-            <li><a href='#services'>Services</a></li>
-            <li><a href='#portifolio'>Portifolio</a></li>
-            <li><a href='#pages'>Testimonials</a></li>
-            <li><a href='#contact'>Contact Us</a></li>
+            <li><Link to='#home'>Home</Link></li>
+            <li><Link to='#about'>About Us</Link></li>
+            <li><Link to='#services'>Services</Link></li>
+            <li><Link to='#portifolio'>Portifolio</Link></li>
+            <li><Link to='#pages'>Testimonials</Link></li>
+            <li><Link to='#contact'>Contact Us</Link></li>
           </ul>
-        </div>
+        </nav>
         <div className="creatic__footer-infoContainer_text">
           <p>Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet,  Neque porro elit NeDque   </p>
         </div>

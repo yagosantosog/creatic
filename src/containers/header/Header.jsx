@@ -2,18 +2,19 @@ import React, { useState } from 'react';
 import './header.css';
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 import Logo from '../../components/logo/Logo';
+import { Link } from 'react-router-dom';
 
 
 function Menu() {
   return (
     <nav>
     <ul>
-      <li><a href='#home'>Home</a></li>
-      <li><a href='#about'>About Us</a></li>
-      <li><a href='#services'>Services</a></li>
-      <li><a href='#portifolio'>Portifolio</a></li>
-      <li><a href='#pages'>Testimonials</a></li>
-      <li><a href='#contact'>Contact Us</a></li>
+      <li><Link to='#home'>Home</Link></li>
+      <li><Link to='#about'>About Us</Link></li>
+      <li><Link to='#services'>Services</Link></li>
+      <li><Link to='#portifolio'>Portifolio</Link></li>
+      <li><Link to='#pages'>Testimonials</Link></li>
+      <li><Link to='#contact'>Contact Us</Link></li>
     </ul>
     </nav>
   )
@@ -25,7 +26,7 @@ const Header = () => {
     <header className='creatic__header'>
       <div className="wrapper creatic__header-container">
       <div className="creatic__header-logo">
-        <a href="#home"><Logo /></a>
+        <Link to="#top"><Logo /></Link>
       </div>
       <div className="creatic__navbar-links">
         <Menu />
