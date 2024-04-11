@@ -8,6 +8,8 @@ import AboutUsDetails from './pages/aboutUsDetails/AboutUsDetails';
 import OurServices from './pages/ourServicesAll/OurServicesAll';
 import WhyUs from './pages/whyUsDetails/WhyUsDetails';
 import TestimonialAll from './pages/testimonialAll/TestimonialsAll';
+import { MouseFollow } from './components';
+
 
 const router = createBrowserRouter([
   {
@@ -42,6 +44,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <MouseFollow />
   </React.StrictMode>
 );
 
