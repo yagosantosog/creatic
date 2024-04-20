@@ -9,12 +9,12 @@ function Menu() {
   return (
     <nav>
     <ul>
-      <li><Link to='#home'>Home</Link></li>
-      <li><Link to='#about'>About Us</Link></li>
-      <li><Link to='#services'>Services</Link></li>
-      <li><Link to='#portifolio'>Portifolio</Link></li>
-      <li><Link to='#pages'>Testimonials</Link></li>
-      <li><Link to='#contact'>Contact Us</Link></li>
+      <li><Link preventScrollReset="true" to='#home'>Home</Link></li>
+      <li><Link preventScrollReset="true" to='#about'>About Us</Link></li>
+      <li><Link preventScrollReset="true" to='#services'>Services</Link></li>
+      <li><Link preventScrollReset="true" to='#portifolio'>Portifolio</Link></li>
+      <li><Link preventScrollReset="true" to='#testimonials'>Testimonials</Link></li>
+      <li><Link preventScrollReset="true" to='#contact'>Contact Us</Link></li>
     </ul>
     </nav>
   )
@@ -26,7 +26,7 @@ const Header = () => {
     <header className='creatic__header'>
       <div className="wrapper creatic__header-container">
       <div className="creatic__header-logo">
-        <Link to="#top"><Logo /></Link>
+        <Link to="#home"><Logo /></Link>
       </div>
       <div className="creatic__navbar-links">
         <Menu />

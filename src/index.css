@@ -11,3 +11,15 @@
     max-width: 90rem;
     margin-inline: auto;
 }
+
+.animation {
+    opacity: 0;
+    transition: all 0.7s ease-out;
+    transition-delay: 0.1s;
+    pointer-events: none;
+  }
+  
+.scroll-animation {
+pointer-events: unset;
+opacity: 1;
+}

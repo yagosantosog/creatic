@@ -1,0 +1,25 @@
+diff --git a/node_modules/react-router-dom/dist/index.js b/node_modules/react-router-dom/dist/index.js
+index c47e214..4b0256c 100644
+--- a/node_modules/react-router-dom/dist/index.js
++++ b/node_modules/react-router-dom/dist/index.js
+@@ -1303,13 +1303,13 @@ function useScrollRestoration(_temp4) {
+         return;
+       }
+       // try to scroll to the hash
+-      if (location.hash) {
+-        let el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+-        if (el) {
+-          el.scrollIntoView();
+-          return;
+-        }
+-      }
++      // if (location.hash) {
++      //   let el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
++      //   if (el) {
++      //     el.scrollIntoView();
++      //     return;
++      //   }
++      // }
+       // Don't reset if this navigation opted out
+       if (preventScrollReset === true) {
+         return;

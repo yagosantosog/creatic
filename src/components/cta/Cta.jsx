@@ -14,7 +14,10 @@ const Cta = ({theme, title, subtitle, text, btn_text, btn_target, btn_to }) => {
       <>{subtitle}</>
       <>{text}</>
       <div className="creatic__cta-btn">
-        {link ? <Link onClick={() => document.documentElement.scrollTo({top: 0, left: 0, behavior: "instant",})} to={link}><button type='button'>{btn_text}</button></Link>: <Link to={'#' + btn_target}><button type='button'>{btn_text}</button></Link>}
+        {link ? <Link onClick={() => {
+          document.documentElement.scrollTo({top: 0, left: 0, behavior: "instant",})
+          window.history.replaceState(null, null, window.location.pathname)
+        }} to={link}><button type='button'>{btn_text}</button></Link>: <Link to={'#' + btn_target}><button type='button'>{btn_text}</button></Link>}
       </div>
     </div>
   )

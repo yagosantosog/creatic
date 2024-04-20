@@ -8,3 +8,5 @@ export {default as ContactItem} from './contactItem/ContactItem';
 export {default as Logo} from './logo/Logo';
 export {default as GoBackButton} from './goBackButton/GoBackButton';
 export {default as MouseFollow} from './mouseFollow/MouseFollow';
+export {default as AnimationObserver} from './animationObserver/AnimationObserver';
+export {default as ScrollToAnchor} from './scrollToAnchor/ScrollToAnchor';

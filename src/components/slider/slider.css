@@ -11,12 +11,11 @@
   --swiper-pagination-bullet-width: .6rem;
   --swiper-pagination-bullet-height: .6rem;
   --swiper-pagination-bullet-inactive-color: hsl(223 96% 71%);
-  --swiper-pagination-bullet-inactive-opacity: 0.3;
+  --swiper-pagination-bullet-inactive-opacity: .3;
   --swiper-pagination-bullet-opacity: 1;
   --swiper-pagination-bullet-horizontal-gap: 4px;
   --swiper-pagination-bullet-vertical-gap: 6px;
 }
-
 
 swiper-slide {
   aspect-ratio: 3/4;
@@ -58,7 +57,7 @@ swiper-slide img {
 
 @media (min-width: 800px) {
   .creatic__slider {
-    --swiper-pagination-bullet-width: 1rem;
-    --swiper-pagination-bullet-height: 1rem;
+    --swiper-pagination-bullet-width: .8rem;
+    --swiper-pagination-bullet-height: .8rem;
   }
 }

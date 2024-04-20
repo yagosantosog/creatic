@@ -1,15 +1,15 @@
 import React, { useLayoutEffect, useState } from "react";
 
 const base = {
-  "pointer-events": "none",
-  "user-select": "none",
+  "pointerEvents": "none",
+  "userSelect": "none",
   display: "block",
   position: "fixed",
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  "border-radius": "100%",
-  "z-index": 10000,
+  "borderRadius": "100%",
+  "zIndex": 10000,
   "@keyframes pulse": {
     "0%": {
       transform: "scale(0.8) translate(-50%, -50%)"
@@ -19,11 +19,6 @@ const base = {
     },
     "100%": {
       transform: "scale(0.8) translate(-50%, -50%)"
-    }
-  },
-  "@media only screen and (max-width: 700px)": {
-    "#cursor": {
-      display: "none"
     }
   }
 };
@@ -54,9 +49,12 @@ const Cursor = ({
     height: size + "rem",
     top: y,
     left: x,
-    "transition-timing-function": easing,
-    "transition-duration": duration + "s"
-  };
+    "transitionTimingFunction": easing,
+    "transitionDuration": duration + "s"
+  }
+  if (window.innerWidth <= 900) {
+    styles.display = 'none'
+  }
   return <div id="cursor" {...rest} style={styles} />;
 };
 

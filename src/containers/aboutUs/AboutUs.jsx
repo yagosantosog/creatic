@@ -7,7 +7,7 @@ const AboutUs = () => {
   return (
     <section className='creatic__aboutUs' id='about'>
       <div className="original_gradient"></div>
-      <div className="wrapper section_padding creatic__aboutUs-container">
+      <div className="animation wrapper section_padding creatic__aboutUs-container">
         <div className="creatic__aboutUs-container_image">
           <img src={robot} alt="A robot saying hello" />
         </div>

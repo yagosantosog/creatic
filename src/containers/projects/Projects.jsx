@@ -19,7 +19,7 @@ const Projects = () => {
             { src: abstractImage, alt: 'An abstract blue art.'}
           ]
   return (
-    <section className='creatic__projects' id='portifolio'>
+    <section className='animation creatic__projects' id='portifolio'>
       <div className="wrapper creatic__projects-container">
         <div className="creatic__projects-container_title">
           <h2>ENJOY OUR <span>LATEST</span> PROJECTS </h2>

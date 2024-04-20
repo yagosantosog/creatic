@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import {createBrowserRouter, Outlet, RouterProvider} from 'react-router-dom'
 import './index.css';
 import App from './App';
 import PageNotFound from './pages/pageNotFound/PageNotFound';
@@ -8,10 +8,27 @@ import AboutUsDetails from './pages/aboutUsDetails/AboutUsDetails';
 import OurServices from './pages/ourServicesAll/OurServicesAll';
 import WhyUs from './pages/whyUsDetails/WhyUsDetails';
 import TestimonialAll from './pages/testimonialAll/TestimonialsAll';
-import { MouseFollow } from './components';
+import { AnimationObserver, MouseFollow, ScrollToAnchor } from './components';
+
+
+function Layout() {
+  return (
+      <>
+        <AnimationObserver >
+          <Outlet />
+          <ScrollToAnchor />
+        </AnimationObserver>
+        <MouseFollow />
+      </>
+  );
+}
 
 
 const router = createBrowserRouter([
+{
+  element: <Layout/>,
+  errorElement: <PageNotFound />,
+  children: [
   {
     path: '/',
     element: <App />,
@@ -24,27 +41,29 @@ const router = createBrowserRouter([
   },
   {
     path: '/ourServices',
-    element: <OurServices />
+    element: <OurServices />,
+    errorElement: <PageNotFound />
   },
   {
     path: '/whyUs',
-    element: <WhyUs />
+    element: <WhyUs />,
+    errorElement: <PageNotFound />
   },
   {
     path: '/testimonials',
-    element: <TestimonialAll />
+    element: <TestimonialAll />,
+    errorElement: <PageNotFound />
   },
   {
     path: '/*/*/*',
     element: <PageNotFound />
   }
-])
+]}])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
-    <MouseFollow />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 

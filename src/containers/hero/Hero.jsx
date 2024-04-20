@@ -7,7 +7,7 @@ const hero = () => {
   return (
     <section className='creatic__hero' id='home'>
       <div className='original_gradient'></div>
-      <div className="wrapper creatic__hero-container">
+      <div className="animation wrapper creatic__hero-container">
         <div className="creatic__hero-container_content">
         <Cta theme={<p>WELCOME TO CREATIC</p>} title={<h1>WE ARE <span className='main-word' >CREATIVE</span> DESIGN AGENCY</h1>} text={<p>Lorem ipsumNeque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit Neque porro elit Neque porro quis ipsum</p>} btn_text='GET IN TOUCH' btn_target='contact'/>
         </div>

@@ -5,8 +5,8 @@ import client from '../../assets/client.webp';
 
 const testimonials = () => {
   return (
-    <section className='creatic__testimonials' id='pages'>
-      <div className="section_padding creatic__testimonials-container">
+    <section className='creatic__testimonials' id='testimonials'>
+      <div className="animation section_padding creatic__testimonials-container">
         <div className="creatic__testimonials-container_leftSide">
         </div>
         <div className="creatic__testimonials-container_content">

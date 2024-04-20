@@ -1,7 +1,6 @@
 .creatic__hero {
     background: var(--bg-color);
     position: relative;
-    min-height: 80svh;
     display: flex;
     align-items: flex-end;
 }
@@ -22,7 +21,7 @@
     justify-content: center;
     flex: 1 0 55%;
     align-self: flex-end;
-
+    user-select: none;
 }
 
 

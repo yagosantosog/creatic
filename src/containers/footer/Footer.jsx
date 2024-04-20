@@ -17,7 +17,7 @@ const Footer = () => {
   let year = date.getFullYear();
   return (
     <footer className='creatic__footer' id='contact'>
-      <div className="wrapper creatic__footer-ctaContainer">
+      <div className="animation wrapper creatic__footer-ctaContainer">
         <div className="creatic__footer-ctaContainer_cta">
           <Cta title={<h2>GET IN <span className='main-word'>TOUCH</span></h2>} text={<p>Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet,  Neque porro elit NeDque porro</p>}/>
           <div className="creatic__footer-ctaContainer_cta-contactItens">
@@ -32,7 +32,7 @@ const Footer = () => {
           <InputCard />
         </div>
       </div>
-      <div className="creatic__footer-infoContainer">
+      <div className="animation creatic__footer-infoContainer">
         <div className="creatic__footer-infoContainer_logo">
           <Logo />
           <div className="color-bar"></div>

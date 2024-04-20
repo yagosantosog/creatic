@@ -10,7 +10,7 @@ import card4 from '../../assets/webrec.svg';
 const Services = () => {
   return (
     <section className='creatic__services' id='services'>
-      <div className="wrapper creatic__services-container">
+      <div className="animation wrapper creatic__services-container">
         <div className="creatic__services-container_content">
           <Cta theme={<p>OUR SERVICES</p>} title={<h2>Experience The Power Of <span className='main-word'>Innovation</span>.</h2>} text={<p>Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet,  Neque porro elit NeDque porro  Neque porro quisquam est qui do lorem ipsum quia dolor sit amets ipsum </p>} btn_text='VIEW ALL' btn_to='/ourServices'/>
         </div>
