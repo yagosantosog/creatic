@@ -7,7 +7,7 @@
 }
 
 .creatic__logo span:first-child {
-    font-size: 2.7rem;
+    font-size: clamp(1.7rem, 5vw, 2.7rem) ;
     font-weight: 600;
     color: var(--main-color);
     text-transform: uppercase;
@@ -17,6 +17,6 @@
 .creatic__logo span:last-child {
     text-transform: uppercase;
     letter-spacing: 0.3em;
-    font-size: 0.7rem;
+    font-size: clamp(.5rem, 1vw, 0.7rem);
     font-weight: 300;
 }
